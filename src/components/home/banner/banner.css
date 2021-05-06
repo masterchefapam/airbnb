@@ -1,0 +1,43 @@
+.banner {
+    height: 80vh;
+    background-image: url('../../../images/airbnb2.jpeg');
+    background-repeat: no-repeat;
+    position: relative;
+    height: 400px;
+}
+
+.banner h1,h5 {
+    color: white;
+}
+
+
+
+.banner_info {
+    background-color: black;
+    padding: 15px;
+    width: 300px;
+}
+
+.banner_info > h1 {
+    padding-top: 104px;
+}
+
+.banner_info > button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner_search{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_searchButton {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}

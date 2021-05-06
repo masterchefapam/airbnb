@@ -1,0 +1,19 @@
+.home__section {
+    display: flex;
+    padding: 30px;
+}
+
+@media (max-width: 580px){
+    .home__section {
+        display: flex;
+        flex-direction: column;
+        object-fit: cover;
+
+    }
+
+    #root {
+     width: 100% !important; 
+    }
+}
+
+
