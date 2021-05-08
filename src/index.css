@@ -2,3 +2,7 @@
   font-family: 'Gilroy Light';
   src: local('Gilroy Light'), url(./fonts/Gilroy-Light.otf) format('otf');
 }
+
+body {
+  margin: 0 !important;
+}
