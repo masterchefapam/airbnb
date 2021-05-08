@@ -28,7 +28,7 @@ const Banner = () => {
                         Plan a different kind of getaway
                         to uncover the hidden gems near you.
                     </h5>
-                    <Button variant="outlined" onClick={()=>
+                    <Button className="banner__exploreButton" variant="outlined" onClick={()=>
                         history.push('/search')
                         }>
                         Explore Nearby
